@@ -23,6 +23,7 @@ This application allows users to enter their personal details and calculate thei
 - JavaScript (ES6)
 - CSS3
 
+
 ## 📂 Project Structure
 
 bmi-calculator/
