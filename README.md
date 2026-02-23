@@ -1,16 +1,68 @@
-# React + Vite
+# 🧮 BMI Calculator (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Body Mass Index (BMI) Calculator built using React.  
+This application allows users to enter their personal details and calculate their BMI instantly with category classification.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User input for Name, Age, Gender
+- Height & Weight input
+- Instant BMI calculation
+- Displays BMI category:
+  - Underweight
+  - Normal
+  - Overweight
+  - Obese
+- Clean UI with gradient background
+- Simple and responsive design
+ 
+ ## 🛠️ Tech Stack
 
-## React Compiler
+- React.js
+- Vite
+- JavaScript (ES6)
+- CSS3
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Project Structure
 
-## Expanding the ESLint configuration
+bmi-calculator/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── Components/
+│   │   ├── Bmi.jsx
+│   │   └── Result.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+└── README.md
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📊 BMI Formula Used
+
+BMI = weight (kg) / (height (m) × height (m))
+
+## 📸 Screenshots
+
+<img width="938" height="780" alt="Screenshot 2026-02-23 105208" src="https://github.com/user-attachments/assets/0b98e41a-e309-4cf8-bf12-4bf2e5610c51" />
+<img width="957" height="589" alt="Screenshot 2026-02-23 105155" src="https://github.com/user-attachments/assets/304f3306-3571-4489-8def-8a88689e5f5b" />
+
+## ⚙️ Installation & Setup
+
+1️⃣ Clone the repository
+
+git clone https://github.com/your-username/BMI-Calculator.git
+
+2️⃣ Navigate to project folder
+
+cd bmi-calculator
+
+3️⃣ Install dependencies
+
+npm install
+
+4️⃣ Start development server
+
+npm run dev
