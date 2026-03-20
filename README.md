@@ -24,22 +24,7 @@ This application allows users to enter their personal details and calculate thei
 - CSS3
 
 
-## 📂 Project Structure
 
-bmi-calculator/
-│
-├── public/
-├── src/
-│   ├── assets/
-│   ├── Components/
-│   │   ├── Bmi.jsx
-│   │   └── Result.jsx
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-├── package.json
-└── README.md
 
 ## 📊 BMI Formula Used
 
@@ -54,7 +39,28 @@ BMI = weight (kg) / (height (m) × height (m))
 
 1️⃣ Clone the repository
 
-git clone https://github.com/your-username/BMI-Calculator.git
+git clone https://git## 📂 Project Structure
+
+```
+bmi-calculator/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── Components/
+│   │   ├── Bmi.jsx
+│   │   └── Result.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+hub.com/your-username/BMI-Calculator.git
 
 2️⃣ Navigate to project folder
 
